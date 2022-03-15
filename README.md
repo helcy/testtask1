@@ -1,4 +1,35 @@
-# Symfony Docker
+# Test task for AnyRm based on Symfony Docker (https://github.com/dunglas/symfony-docker)
+
+This is a test task and it has only some conceptual relation to a real product part. We do not use Symfony, this repository was created just to make your life easier.
+
+## Task description
+
+This repository contains just one controller and actually one action - registration in the event.
+The action should display a simple registration form based on defined configuration file and after registration display an invoice in plain text form.
+
+There are 4 registrations are available (type - price):
+* student - 50€
+* professor - 100€
+* member - 150€
+* not member - 250€
+
+It is possible to apply a discount:
+* X11 - 11%
+* X33 - 33%
+* Y1 - 50€
+* Y2 - 75€
+
+In the real world all these values will be in the storages, but for simplification you can hard-code them into php code.
+Implementation of early bird registration is nice to have.
+Assuming that performance is not an issue in our case.
+
+## Expectations
+
+* Nice OOP (you can explain why did you do like that)
+* It should work
+* Results should be provided as a patch
+
+# Below is the original instructions about the set up 
 
 A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony](https://symfony.com) web framework, with full [HTTP/2](https://symfony.com/doc/current/weblink.html), HTTP/3 and HTTPS support.
 
